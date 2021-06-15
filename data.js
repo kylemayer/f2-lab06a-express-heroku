@@ -14,7 +14,7 @@ const ducks = {
         {
             'id': 1,
             'name': 'Bufflehead Duck',
-            'mass': 14,
+            'mass_oz': 14,
             'body_size': 'compact',
             'feet_color': 'orange',
             'url_image': 'https://res.cloudinary.com/dozx3wxth/image/upload/v1623790612/bufflehead_ulksab.jpg',
@@ -22,7 +22,7 @@ const ducks = {
         {
             'id': 2,
             'name': 'Harlequin Duck',
-            'mass': 20,
+            'mass_oz': 20,
             'body_size': 'medium',
             'feet_color': 'brown',
             'url_image': 'https://res.cloudinary.com/dozx3wxth/image/upload/v1623790612/harlequin_nojjzi.jpg',
@@ -30,7 +30,7 @@ const ducks = {
         {
             'id': 3,
             'name': 'Mallard Duck',
-            'mass': 50,
+            'mass_oz': 50,
             'body_size': 'large',
             'feet_color': 'orange',
             'url_image': 'https://res.cloudinary.com/dozx3wxth/image/upload/v1623790611/mallard_oukwib.jpg',
@@ -46,7 +46,7 @@ const ducks = {
         {
             'id': 5,
             'name': 'Muscovy Duck',
-            'mass': 180,
+            'mass_oz': 180,
             'body_size': 'giant',
             'feet_color': 'yellow',
             'url_image': 'https://res.cloudinary.com/dozx3wxth/image/upload/v1623790611/muscovy_dh4avw.jpg',
@@ -54,7 +54,7 @@ const ducks = {
         {
             'id': 6,
             'name': 'Redhead Duck',
-            'mass': 35,
+            'mass_oz': 35,
             'body_size': 'medium',
             'feet_color': 'brown',
             'url_image': 'https://res.cloudinary.com/dozx3wxth/image/upload/v1623790612/redhead_wkjbzw.jpg',
@@ -62,7 +62,7 @@ const ducks = {
         {
             'id': 7,
             'name': 'Wood Duck',
-            'mass': 15,
+            'mass_oz': 15,
             'body_size': 'compact',
             'feet_color': 'yellow',
             'url_image': 'https://res.cloudinary.com/dozx3wxth/image/upload/v1623790612/wood_k9g6zv.jpg',
