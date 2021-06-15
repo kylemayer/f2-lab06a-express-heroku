@@ -88,7 +88,7 @@ app.get('/ducks', (req, res) => {
     res.json(ducks)
 })
 
-app.get('/duckling', (req, res) => {
+app.get('/ducks/:id', (req, res) => {
     const ducks = {
         'count': 7,
         'page': 1,
@@ -168,11 +168,11 @@ app.get('/duckling', (req, res) => {
         ]
     };
 
-    const id = 7
+    const id = Number(req.params.id)
 
-    const wood = ducks.results.find((duck) => duck.id === id)
+    const duck = ducks.results.find((duck) => duck.id === id)
 
-    res.json(wood)
+    res.json(duck)
 })
 
 app.listen(port, () => {
