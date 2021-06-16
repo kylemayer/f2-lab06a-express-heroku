@@ -2,7 +2,7 @@ const express = require('express')
 const ducks = require('./data.js')
 const cors = require('cors')
 const app = express()
-const port = process.env.PORT || 7777;
+
 
 app.use(cors())
 
